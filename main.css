@@ -1,10 +1,42 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+
+/* General Section */
+
 section {
     background-color: #F0EC57;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
+
+body, html {
+    height: 100%;
+}
+
+/* Parallax Scrolling */
+
+.parallax { 
+    background-image: url("img/parallax-img.jpg");
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* Watch Section */
+
+.watch-header {
+    text-align: center;
+}
 .video-responsive {
     overflow:hidden;
     padding-bottom:56.25%;
@@ -19,6 +51,19 @@ section {
     position:absolute;
 }
 
+/* Testimonial Section */
+
 .testimonial-header {
+    text-align: center;
+}
+
+.img-responsive {
+    max-height: 250px;
+    max-width: 250px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.card-body {
     text-align: center;
 }
