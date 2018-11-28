@@ -4,57 +4,242 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
+        <meta name="description" content="API Superstore">
+  <meta name="author" content="Shure Joe">
         <title>API Superstore</title>
+        
         <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    
+    <link href="css/one-page-wonder.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="main.css">
         <!-- End Bootstrap CSS Framework -->
 
         <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     </head>
     <body>
-        <!-- Note: If you do not see a camera icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how FontAwesome is linked to this page. -->
-        <h1><span class="fas fa-camera-retro"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#watch">Watch</a>
+             <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#shareandbuy">Share and Buy!</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        
+    <header class="masthead text-center text-white" id="home">
+      <div class="masthead-content">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">API Superstore</h1>
+          <h2 class="masthead-subheading mb-0">All the APIs, all the time!</h2>
+        </div>
+      </div>
+      <div class="bg-circle-1 bg-circle"></div>
+      <div class="bg-circle-2 bg-circle"></div>
+      <div class="bg-circle-3 bg-circle"></div>
+      <div class="bg-circle-4 bg-circle"></div>
+    </header>
+    
+    <section id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/about-image.jpg" alt="Computer Screen">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-5">What is API Superstore?</h2>
+              <p>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business. From e-commerce to maps, API Superstore lists all of the services that customers expect and saved you the headache of sorting it out yourself! The longer you wait, the longer you're not making more meony and happier users.</p>
+            </div>
+            <div class="p-5">
+              <h2 class="display-5">Click, click, code!</h2>
+              <p>We have parterned with API providers across the Web to bring you easy access to the hottest third-party services and features.</p>
+              <p>API Superstore provies fast access to the most cutting-edge APIs available online. Signup and save today!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <section id="watch">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div>
+              <h2 class="display-5 watch-header">Watch</h2>
+              <div class="video-responsive">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <section id="features">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/features-image.jpg" alt="Man with telescope">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5">
+              <h2 class="display-5">Features</h2>
+                <ul class="features-list">
+                    <li>Links to the best APIs from all over the web</li>  
+                    <li>Convenient catalog</li> 
+                    <li>Pay with credit, check, IOU, wire transfer, PayPal or livestock trade!</li>
+                    <li>Elegant shopping experience</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="testimonials">
+      <h2 class="display-5 testimonial-header">Testimonials</h2>
+      <div class="row">
+      <div class="testimonial-profiles col-sm-6 col-md-4">
+        <div class="card h-100">
+            <img class="card-img-top img-responsive" src="img/cp-yu.jpg" alt="C.P. Yu">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">
+            C.P. Yu, AmazingSite.com
+            </h3>
+            <p class="card-text">"This is the best website ever!"</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-profiles col-sm-6 col-md-4">
+        <div class="card h-100">
+            <img class="card-img-top img-responsive" src="img/amy-zon.jpg" alt="Amy Zon">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">
+            Amy Zon, Massive Anonymous Customer
+            </h3>
+            <p class="card-text">"I'm able to more easily keep up with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier!"</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-sm-6 col-md-4">
+        <div class="card h-100">
+            <img class="card-img-top img-responsive" src="img/clara-cache.jpg" alt="Clara Cache">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">
+            Clara Cache  
+            </h3>
+            <p class="card-text">"Once again, I'm blown away by the amazing offerings of the API Superstore. You really are SUPER!"</p>
+          </div>
+        </div>      
+      </div>
+      </div>
+      </section>
+ 
+ <section id="shareandbuy">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/shareandbuy-image.jpg" alt="API Interface">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-5">Spread the Word!</h2>
+              <ul class="social-links">
+                <li class="twitter"><a href="http://twitter.com">Twitter</a></li>
+                <li class="facebook"><a href="http://facebook.com">Facebook</a></li>
+                <li class="instagram"><a href="http://instagram.com">Instagram</a></li>
+            </ul>
+             <h2 class="display-5">Save time, get APIs!</h2>
+              <p>Click below for a quote.</p>
+              <h3><a class="btn btn-lg btn-secondary btn-block" href="mailto:blah@blah.com">Signup and save!</a></h3>
+              
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      
+      <section id="contact">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/contact-image.png" alt="Handheld phone">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5">
+              <h2 class="display-5">Contact Us!</h2>
+              <p>Please see below for our contact information.</p>
+              <address>
+              <p>API Superstore<br>
+                 901 12th Ave<br>
+                 Seattle, WA 98122</p>
+                 <a href="mailto:blah@blah.com">blah@blah.com</a><br/>
+  <a href="tel:123-456-7891">(123)-456-7891</a><br/>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+             
+      <footer class="py-5 bg-black">
+        <div class="container">
+        <p class="m-0 text-center text-white small">Copyright &copy; Shure Joe 2018</p>
+      </div>
+        </footer>
 
-        <!-- TODO: Create an area to put the explainer video. -->
-
-        <!-- TODO: Create an area to put the long product description. -->
-
-        <!-- TODO: Create an area to put customer testimonials. -->
-
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src="vendor/jquery/jquery.min.js">
+        </script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js">
+        </script>
     </body>
 </html>
