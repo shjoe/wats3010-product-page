@@ -17,7 +17,6 @@ body, html {
 
 body {
     position: relative; 
-    font-size: 1.2rem;
   }
   
 div > header {
@@ -45,19 +44,51 @@ div > header {
     background-size: cover;
 }
 
-/* Phones */
+/* Smartphone & Tablet */
 
-@media (max-width: 320px) {
+@media only screen and (max-width:749px) {
     .parallax {
-        display: none;
+     display: none;    
     }
 }
 
-/* Tablet */
+/* Smartphone */
 
-@media (max-width: 600px) {
-    .parallax {
-        display: none;
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    section {
+        margin-top: -50px;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+/* Tablets */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1223px) {
+    section {
+        margin-top: -50px;
+    }
+    body {
+        font-size: 1.1rem;
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width : 1224px) and (max-device-width : 1823px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+/* Extra Large Screens */
+
+@media only screen and (min-width : 1824px) {
+    body {
+        font-size: 1.5rem;
+        font-weight: bold;
     }
 }
 
