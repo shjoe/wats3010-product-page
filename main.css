@@ -73,6 +73,9 @@ div > header {
     body {
         font-size: 1.1rem;
     }
+    audio {
+    width: 600px;
+}
 }
 
 /* Desktop */
@@ -81,6 +84,9 @@ div > header {
     body {
         font-size: 1.2rem;
     }
+    audio {
+    width: 800px;
+}
 }
 
 /* Extra Large Screens */
@@ -92,10 +98,19 @@ div > header {
     }
 }
 
-/* Watch Section */
+/* Watch and Listen Section */
 
-.container > h2 {
+.media-container {
     text-align: center;
+}
+
+
+.listen-audio {
+    margin-top: 25px;
+}
+
+audio {
+    max-width: 100%;
 }
 
 /* Testimonial Section */
