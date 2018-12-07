@@ -177,3 +177,18 @@ a[href*="mailto"]:hover {
      -webkit-transform: rotate(360deg);
      transform: rotate(360deg);
 }
+
+.call-to-action {
+     font-weight: bold;
+     animation-name: flash;
+     animation-duration: 2s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-play-state: running;
+}
+
+@keyframes flash {
+     from {color: white;}
+     to {color: dodgerblue;}
+}
